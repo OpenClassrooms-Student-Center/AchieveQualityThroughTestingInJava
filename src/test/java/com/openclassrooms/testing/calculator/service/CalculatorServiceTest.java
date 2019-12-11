@@ -119,7 +119,7 @@ public class CalculatorServiceTest {
         CalculationModel responseModel = underTest.calculate(calculationModel);
 
         // Assert
-        assertThat(responseModel.getSolution(), is(equalTo(2)));
+        assertThat(responseModel.getRightArgument(), is(equalTo(2)));
     }
 
 
