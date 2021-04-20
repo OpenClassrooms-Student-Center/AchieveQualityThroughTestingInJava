@@ -18,5 +18,12 @@ public class CalculatorTest {
         // assert
         assertEquals(expected, result);
     }
+    @Test
+    public void calculator_multiply() {
+    	Integer expect =6;
+    	Calculator calculator = new Calculator();
+    	Integer result =calculator.mul(2,6);
+    	assertEquals(expect, result);
+    }
 
 }
